@@ -169,3 +169,7 @@ Every interaction should leave 2Brain better:
 3. **Health check** → contradictions flagged → wiki corrected → sources verified
 
 The knowledge base should be smarter after every session than before it.
+
+## Coding standards
+
+Coding standards: follow [CODING_STANDARDS.md](CODING_STANDARDS.md) (from ScottLabs-DevStudio/engineering-standards). Answer every review thread before ship.
