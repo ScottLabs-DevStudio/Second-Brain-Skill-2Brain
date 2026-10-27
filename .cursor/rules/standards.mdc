@@ -1,0 +1,6 @@
+---
+description: Repository coding standards
+alwaysApply: true
+---
+
+Follow @CODING_STANDARDS.md for all changes in this repository. Repo-specific rules there take precedence over the shared base. Answer every review thread before ship.
