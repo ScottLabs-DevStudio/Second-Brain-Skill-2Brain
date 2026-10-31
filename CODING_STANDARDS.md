@@ -26,7 +26,7 @@ Vendored or upstream code (copied from another project) is exempt from these sta
 ## Git and review
 
 - Conventional Commit subjects in imperative mood (`feat`, `fix`, `refactor`, `perf`, `test`, `docs`, `build`, `ops`, `chore`), under 100 bytes; optional short bulleted body.
-- One push per reviewable unit. Merge commits only: never rebase or force-push shared branches.
+- One push per reviewable unit. Squash-merge is the only merge method in all repos. Never rebase or force-push shared branches.
 - Answer every review thread before ship.
 - No secrets in repos, argv, URLs, CI output, logs, or client bundles. No new keys or paid services without approval.
 - Pin dependencies (lockfiles) and pin third-party GitHub Actions to full commit SHAs. Workflows default to `permissions: contents: read`; grant more per job only when needed, never `write-all`.
